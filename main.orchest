@@ -1,0 +1,53 @@
+{
+    "name": "Main",
+    "parameters": {},
+    "services": {},
+    "settings": {
+        "auto_eviction": false,
+        "data_passing_memory_size": "1GB"
+    },
+    "steps": {
+        "22e67f61-bd77-439c-b1d7-946d87493498": {
+            "environment": "95bbb6b8-f2e6-482e-ab5f-37e848725ef4",
+            "file_path": "script.py",
+            "incoming_connections": [],
+            "kernel": {
+                "display_name": "Python 3",
+                "name": "python"
+            },
+            "meta_data": {
+                "hidden": false,
+                "position": [
+                    203,
+                    189.5
+                ]
+            },
+            "parameters": {},
+            "title": "Script",
+            "uuid": "22e67f61-bd77-439c-b1d7-946d87493498"
+        },
+        "22f1de17-eef1-436f-b305-e0215d23cfb6": {
+            "environment": "95bbb6b8-f2e6-482e-ab5f-37e848725ef4",
+            "file_path": "notebook.ipynb",
+            "incoming_connections": [
+                "22e67f61-bd77-439c-b1d7-946d87493498"
+            ],
+            "kernel": {
+                "display_name": "Python 3",
+                "name": "python"
+            },
+            "meta_data": {
+                "hidden": false,
+                "position": [
+                    459,
+                    265.5
+                ]
+            },
+            "parameters": {},
+            "title": "Notebook",
+            "uuid": "22f1de17-eef1-436f-b305-e0215d23cfb6"
+        }
+    },
+    "uuid": "b45d3498-c4a5-457b-b28b-c6cb86ad7f0c",
+    "version": "1.0.0"
+}
